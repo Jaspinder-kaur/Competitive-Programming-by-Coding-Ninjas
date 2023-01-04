@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int a,b,c;
-    cout << "Enter Number : ";
+    cout << "Enter Sides of Triangle : ";
     cin >> a >> b >> c;
     if(a + b > c || c + a > b || b + c > a)
     {
