@@ -8,7 +8,7 @@ int main()
     cin >> num;
         while(div < num)
         {
-            if(num%2==0)
+            if(num%div==0)
             {
                 cout << "Not prime" << endl;
                 flag = true;
