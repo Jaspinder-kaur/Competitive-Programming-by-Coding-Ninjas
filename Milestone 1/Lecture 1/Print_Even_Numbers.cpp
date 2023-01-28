@@ -1,16 +1,18 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int num, next_num;
-    cout << "Enter Number : ";
+    int num, next = 2;
     cin >> num;
+    cout << "Enter Number :" << endl;
     cout << "All even between 1 To N : " << endl;
-    for(next_num =1; next_num <= num; next_num++)
+    while(next <= num)
     {
-        if(next_num%2==0)
+      if(next % 2 == 0)
         {
-            cout << next_num << endl;
+            cout << next << endl;
+            next = next + 2;
         }
     }
     return 0;
